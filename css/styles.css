@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+}
+
+.navbar{
+    padding: 1rem;
+}
+.navbar-brand{
+    color: rgb(216, 124, 4);
+    card-footeront-size: 20px;
+    font-family: "Jaro", sans-serif;
+    font-style: normal;
+}
+.navbar-brand span{
+    color: rgb(8, 71, 16);
+    font-size: 10px;
+}
+.nav-link{
+    color: rgb(216, 124, 4);
+    font-family: "Jaro", "sans-serif";
+}
+.nav-link:hover{
+    color: rgb(8, 71, 16);
+}
+.dropdown-item {
+    color: rgb(8, 71, 16);
+    font-family: "Jaro", "sans-serif";
+}
+.dropdown-item:hover{
+    color: rgb(216, 124, 4);
+    background-color: rgb(8, 71, 16);
+}
+.btn{
+    font-family: "Jaro", "sans-serif";
+    background-color: rgb(8, 71, 16);
+    color: rgb(216, 124, 4);
+    border-color: rgb(8, 71, 16);
+}
+.btn:hover{
+    background-color: white;
+    border-color:  black;
+}
+.text-center{
+    padding: 100px;
+    font-family: "Nunito Sans", sans-serif;
+}
+.blockquote{
+    color: rgb(216, 124, 4);
+    font-weight: bold;
+}
+.blockquote-footer{
+    color: white;
+}
+.kontainer-left{
+    color: rgb(216, 124, 4);
+    font-family: "Jaro", "sans-serif";
+    font-size: 20px;
+}
+
+.row{
+    font-family: "Nunito Sans", sans-serif;
+}
+.carousel{
+    font-family: "Nunito Sans", sans-serif;
+    margin-bottom: 3em;
+}
+.card-footer{
+    background-color: rgb(25, 139, 40);
+    text-align: center;
+    padding-top: 3em;
+}
+
+.icon-link{
+    color: white;
+    font-size: 1.1rem;
+    transition: color .4s ease;
+    text-decoration: none;
+    font-size: small;
+    font-family: "Nunito Sans", sans-serif;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+}
+.icon-link :hover{
+    color: rgb(216, 124, 4);
+}
+
+/*link*/
+.link-offset-2{
+    color: white;
+    font-size: small;
+    font-family: "Nunito Sans", sans-serif;
+}
+.link-offset-2:hover{
+    color: rgb(216, 124, 4);
+}
+
+.card{
+    font-family: "Nunito Sans", sans-serif;
+}
+.card-title{
+    font-weight: bold;
+}
+.icon-contact{
+    color: rgb(216, 124, 4);
+}
+.form-label{
+    color: rgb(216, 124, 4);
+}
+.list-group-item{
+    border: none;
+}
+
+option::selection{
+    background-color: rgb(216, 124, 4);
+}
